@@ -121,7 +121,7 @@ class Nave {
       
       }
 
-      const player = new Nave('../img/x-wing.png', 300, 450, 80, 96)
+      const player = new Nave('https://devkadu.github.io/SpaceBattle/img/x-wing.png', 300, 450, 80, 96)
 
      
 
@@ -206,7 +206,7 @@ const obstacles = [];
      const width = Math.floor(Math.random()* 100)
      const height = width;
      const posX = Math.floor(Math.random()* canvas.width);
-     const obstacle = new Obstacle('../img/asteroid-icon.png', posX, width, height)
+     const obstacle = new Obstacle('https://devkadu.github.io/SpaceBattle/img/asteroid-icon.png', posX, width, height)
      obstacles.push(obstacle);
      }
 
