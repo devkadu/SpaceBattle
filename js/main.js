@@ -24,7 +24,7 @@ somGame.src='../img/bensound-epic.mp3'
 
 //BACKGROUND
 const img = new Image();
-img.src ='../img/fundo1.jpg'
+img.src ='https://devkadu.github.io/SpaceBattle/img/fundo1.jpg'
 
 
 const background ={
