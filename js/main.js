@@ -57,7 +57,7 @@ const background ={
 
 //NAVE PLAYER1
 const spaconave = new Image()
-  spaconave.src = '../img/x-wing.png';
+  spaconave.src = 'https://devkadu.github.io/SpaceBattle/img/x-wing.png';
 
 class Nave {
   constructor(source, x, y, w, h){
