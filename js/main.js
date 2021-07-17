@@ -8,7 +8,7 @@ let frames = 0;
 
 
 const somGame = new Audio();
-somGame.src='../img/bensound-epic.mp3'
+somGame.src='https://devkadu.github.io/SpaceBattle/img/bensound-epic.mp3'
 
 
 //SCORE
@@ -154,7 +154,7 @@ document.addEventListener('keydown', e => {
   //OBSTACLES
 
   const asteroid = new Image()
-  asteroid.src = '../img/asteroid-icon.png';
+  asteroid.src = 'https://devkadu.github.io/SpaceBattle/img/asteroid-icon.png';
  
   
   class Obstacle {
